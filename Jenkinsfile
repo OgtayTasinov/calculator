@@ -19,11 +19,11 @@ pipeline {
             } // steps
         } // stage
     } // stages
-    post {
-        always {
-            sh """
-               //pip uninstall pytest -y
-            """
+    //post {
+    //    always {
+    //        sh """
+    //          pip uninstall pytest -y
+    //        """
         } // always
     } // post
 }// pipeline
